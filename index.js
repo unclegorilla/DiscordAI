@@ -22,7 +22,7 @@ client.once(Events.ClientReady, (clientUser) => {
 
 client.login(process.env.BOT_TOKEN)
 
-const BOT_CHANNEL = "1072073951687225384"
+const BOT_CHANNEL = "InsertChannelIDHere"
 const PAST_MESSAGES = 11
 
 client.on(Events.MessageCreate, async (message) => {
